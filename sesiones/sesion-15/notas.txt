@@ -1,0 +1,4 @@
+// Clase del 14 de enero de 2020
+// Temas:
+// Números primos (prueba de primalidad)
+// Demostracion de uso del debugger para ver la ejecucion del codigo paso a paso y el valor de las variables
