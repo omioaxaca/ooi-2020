@@ -33,7 +33,14 @@ int main() {
     string palabra2 = "mundo";
     string palabras_juntas;
     palabras_juntas = palabra1 + " " + palabra2 + " :)";
-    cout << "Palabras unidas: " << palabras_juntas;
+    cout << "Palabras unidas: " << palabras_juntas << "\n";
+    
+    // Acceder a un elemento de un string y guardarlo en un char
+    string palabra3 = "olimpiada de informatica";
+    char letra; // Guardar caracteres (comillas sencillas, ej: 'x')
+    letra = palabra3[4]; // 'p'
+    cout << "Valor de la variable letra: " << letra;
+
 
 
     return 0;
