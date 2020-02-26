@@ -24,7 +24,7 @@ long long int potencia_recursiva(int a, int n) {
         return a;
     }
     // Paso recursivo
-    return a * potencia(a, n - 1);
+    return a * potencia_recursiva(a, n - 1);
 }
 ```
 
@@ -57,11 +57,11 @@ long long int potencia_rapida(int a, int n) {
     }
     // Pasos recursivos
     if (n % 2 == 0) {
-        long long int memo = potencia(a, n/2);
+        long long int memo = potencia_rapida(a, n/2);
         return memo * memo;
     }
     else {
-        return potencia(a, n - 1) * a;
+        return potencia_rapida(a, n - 1) * a;
     }
 }
 ```
