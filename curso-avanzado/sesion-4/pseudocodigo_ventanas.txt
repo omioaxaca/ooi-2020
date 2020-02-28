@@ -1,0 +1,31 @@
+// Problema de omegaup: Ventanas
+// Estado
+// venta actual que queremos cerrar
+// <<ventana>> = (R1, S1, R2, S2) -> Coordenadas de las esquinas de la ventana
+
+f( <<ventana>> ) {
+    // Caso base
+    // Si esta ventana esta libre (no hay ninguna ventana obstruyendo el boton de cerrar),
+    // entonces la cerramos.
+    // Aumentar 1 al contador de clicks
+
+    // Caso general? Paso recursivo?
+    // No podemos cerrar la ventana porque hay algunas que la obstruyen.
+    // Entonces tenemos que cerrar todas las ventanas que la bloquean.
+}
+
+int cerrar_ventana(ventana) {
+    if(ventana esta libre) {
+        // cerrar ventana
+        return 1;
+    }
+    else {
+        total_clicks = 0;
+        for (ventanas que obstruyen a ventana) {
+            clicks = cerrar_ventana(ventana que obstruye);
+            total_clicks += clicks;    
+        }
+    }
+    return total_clicks;
+}
+
