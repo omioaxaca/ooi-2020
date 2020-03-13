@@ -9,7 +9,6 @@
 using namespace std;
 
 int main() {
-    vector<int> v(1000000000); // 4GB
     vector<string> palabras = {"Daniel", "viene", "a", "Oaxaca", "a", "visitar", "a", "Nicolas", "la", "proxima", "semana", "pero", "Nicolas", "no", "estara"};
     // Un map de la STL nos permite guardar elementos utilizando una llave unica y
     // asignar un valor dentro para esa llave.
