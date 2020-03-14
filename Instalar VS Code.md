@@ -4,16 +4,16 @@ Instrucciones originales: [Link](https://code.visualstudio.com/docs/cpp/config-m
 
 ## Windows
 
-1. Descargar e isntalar VS Code de este [link](https://code.visualstudio.com/download)
-2. Descargar el compilador MinGW de este [link](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
-3. Para instalar MinGW es necesario instalarlo en `C:\mingw\`
-4. Modificar las variables de entorno para incluir `C:\mingw\mingw64\bin`
-5. Configurar los archivos `launch.json` `y tasks.json`
+1. Descargar e instalar VS Code de este [link](https://code.visualstudio.com/download)
+2. Abrir VS Code e instalar la extensión de `C/C++`.
+3. Descargar el compilador MinGW de este [link](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
+4. Para instalar MinGW es necesario instalarlo en `C:\mingw\`
+5. Modificar las variables de entorno para incluir `C:\mingw\mingw64\bin`
+6. Configurar los archivos `launch.json` `y tasks.json`
+
+Archivo launch.json
 ```json
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -41,10 +41,9 @@ Instrucciones originales: [Link](https://code.visualstudio.com/docs/cpp/config-m
 }
 ```
 
+Archivo tasks.json
 ```json
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558 
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
