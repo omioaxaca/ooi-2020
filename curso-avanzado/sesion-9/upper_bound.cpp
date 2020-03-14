@@ -44,7 +44,7 @@ int main() {
     int x;
     vector<int> valores = {2, 6, 7, 11, 19, 24, 31};
     cin >> x;
-    int res = upper_bound(valores, x); // 11
+    int res = upper_bound(valores, x);
     cout << res << "\n";
 
     return 0;
