@@ -27,7 +27,7 @@ Archivo launch.json
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\mingw_w64\\mingw64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\mingw\\mingw64\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -35,7 +35,7 @@ Archivo launch.json
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "g++.exe build active file"
+            "preLaunchTask": "Compile C++"
         }
     ]
 }
@@ -48,8 +48,8 @@ Archivo tasks.json
     "tasks": [
         {
             "type": "shell",
-            "label": "g++.exe build active file",
-            "command": "C:\\mingw_w64\\mingw64\\bin\\g++.exe",
+            "label": "Compile C++",
+            "command": "C:\\mingw\\mingw64\\bin\\g++.exe",
             "args": [
                 "-g",
                 "${file}",
@@ -57,7 +57,7 @@ Archivo tasks.json
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "C:\\mingw_w64\\mingw64\\bin"
+                "cwd": "C:\\mingw\\mingw64\\bin"
             }
         }
     ]
