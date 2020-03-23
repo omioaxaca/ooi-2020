@@ -129,7 +129,7 @@ int main() {
     lli cantidad_diaria_maxima = chocolate_total / dias + 1;
     // Variable para guardar la respuesta.
     lli cantidad_diaria_posible = 0;
-    cantidad_diaria_posible = upper_bound(chocolates, 1, cantidad_diaria_maxima);
+    cantidad_diaria_posible = upper_bound(chocolates, 0, cantidad_diaria_maxima);
 
     cout << cantidad_diaria_posible << "\n";
 

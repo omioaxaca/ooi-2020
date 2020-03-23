@@ -105,7 +105,7 @@ int main() {
     lli cantidad_diaria_maxima = chocolate_total / dias + 1;
     // Variable para guardar la respuesta.
     lli cantidad_diaria_posible = 0;
-    for (lli cantidad = 1; cantidad <= cantidad_diaria_maxima; cantidad++) {
+    for (lli cantidad = 0; cantidad <= cantidad_diaria_maxima; cantidad++) {
         if (es_posible(chocolates, cantidad)) {
             if (cantidad > cantidad_diaria_posible) {
                 cantidad_diaria_posible = cantidad;
