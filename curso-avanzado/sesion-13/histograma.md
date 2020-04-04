@@ -110,34 +110,34 @@ Ahora el problema se reduce a cómo insertar y remover los elementos de la pila 
     // Paso 1.
     stack<int> pila;
     // Paso 2.
-	for(int i = 0; i < barras.size(); i++) {
+    for(int i = 0; i < barras.size(); i++) {
         // Paso 2 inciso a.
-		if(pila.empty() || barras[pila.top()] <= barras[i]) {
-			pila.push(i);
-		}
-		else {
+        if(pila.empty() || barras[pila.top()] <= barras[i]) {
+            pila.push(i);
+        }
+        else {
             // Paso 2 inciso b.
             int der = i;
-			while(!pila.empty() && barras[P.top()] > barras[i]) {
-				int top = pila.top();
-				pila.pop();
+            while(!pila.empty() && barras[P.top()] > barras[i]) {
+                int top = pila.top();
+                pila.pop();
 
                 int izq = 0;
-				if(!pila.empty()) {
+                if(!pila.empty()) {
                     izq = pila.top() - 1;
                 }
                 int h = barras[top];
                 int l = der - izq;
-				int area = h * l;	
-				area_maxima = max(area, area_maxima);
-			}
-			pila.push(i);
-		}		
-	}
-	// Paso 3.
+                int area = h * l;	
+                area_maxima = max(area, area_maxima);
+            }
+            pila.push(i);
+        }
+    }
+    // Paso 3.
     int der = barras.size();
-	while (!pila.empty()) {
-		int top = pila.top();
+    while (!pila.empty()) {
+        int top = pila.top();
         pila.pop();
 
         int izq = 0;
@@ -148,7 +148,7 @@ Ahora el problema se reduce a cómo insertar y remover los elementos de la pila 
         int l = der - izq;
         int area = h * l;	
         area_maxima = max(area, area_maxima);
-	}
+    }
 
 
 ```
