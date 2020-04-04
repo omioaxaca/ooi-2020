@@ -5,8 +5,8 @@ Uso de pilas para calcular el area mas grande de un rectángulo
 dentro de un histograma.
 
 ## Problema
-Calcula el area mas grande de un rectángulo comprendido entre
-las regiones contiguas de un histograma (grafica de barras).
+Calcular el área más grande de un rectángulo comprendido entre
+las regiones contiguas de un histograma (gráfica de barras).
 Asume que el ancho de cada barra es 1.
 
 ### Ejemplo:
@@ -57,7 +57,7 @@ El problema con la solución anterior es que es demasiado costoso buscar el tama
 
 - Suponiendo que estamos ubicados en la posición *j* y que esta posición representa el final de un rango, es decir *der*. Necesitamos una forma de encontrar *b<sub>i</sub>* y *izq*.
 
-    Si utilizamos una pila que contenga en el top el valor de *b<sub>i</sub>*, y que el primer elemento dentro de la pila menor que *b<sub>i</sub>* representa *b<sub>izq</sub>* entonces podriamos resolver facilmente el problema.
+    Si utilizamos una pila que contenga en el top el valor de *b<sub>i</sub>*, y que el primer elemento dentro de la pila menor que *b<sub>i</sub>* represente *b<sub>izq</sub>* entonces podriamos resolver facilmente el problema.
 
 Ahora el problema se reduce a cómo insertar y remover los elementos de la pila para que se cumplan ciertas condiciones. Para esto debemos seguir estos pasos:
 
