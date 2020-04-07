@@ -70,7 +70,7 @@ Ahora el problema se reduce a cómo insertar y remover los elementos de la pila 
     
     Mientras la pila no este vacia y el top sea mayor que *b<sub>der</sub>*
       
-      --> Asignar el valot del top de la pila a *b<sub>top</sub>*.
+      --> Asignar el valor del top de la pila a *b<sub>top</sub>*.
       
       --> Eliminar el top de la pila.
 
