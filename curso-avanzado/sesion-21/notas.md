@@ -26,6 +26,32 @@ if cola vacia and !respuesta_encontrada
     // no se encontro respuesta
 ```
 
+```c++
+Nodo bfs(Nodo inicio) {
+    queue<Nodo> Q;
+    Q.push(inicio);
+
+    while(!Q.empty()) {
+        Nodo actual = Q.front();
+        Q.pop();
+        if (es_respuesta(actual)) {
+            return actual; // Regresar el estado donde se encontro la respuesta.
+        }
+        visitado[actual.x][actual.y] = true;
+
+        // Probar con todos los hijos.
+        for (int i = 0; i < numHijos; i++) {
+            Nodo sig;
+            sig = // asignar los valores correspondientes al nodo siguiente.
+            if(es_valido(sig)) {
+                Q.push(sig);
+            }
+        }
+    }
+    return -1;
+}
+```
+
 
 # Ejercicios
 
