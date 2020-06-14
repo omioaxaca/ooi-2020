@@ -105,3 +105,91 @@ Explicacion.
 Fuerza bruta
 Para cada elemento `i` en el arreglo, recorrer todo el vector para buscar si existe un `j` tal cual que A<sub>i</sub> + B<sub>j</sub> = `k`.
 Complejidad `O(n*n)`
+
+Barrido
+Dada la relación `a` + `b` = `k`, si se conoce el valor de `k` entonces se tienen dos incognitas.
+Pero, si recorremos el arreglo empezando desde `0` hasta el final y en cada paso asignamos su valor a `a`, entonces solo nos quedaría una incógnita: `a + b = k` es lo mismo que `b = k - a`.
+Ahora el problema se reduce en contar todas ocurrencias de `b` en el arreglo, esto se puede resolver facilmente, si mantenemos una cubeta con la cantidad de veces que ha aparecido cada valor.
+
+```c++
+int n; // cantidad de elementos
+int k; // suma
+cin >> n;
+cin >> k;
+
+map<int, int> cubeta; // Guardar la frecuencia con que aparece cada numero. valor -> frecuencia
+
+
+int parejas = 0;
+for (int i = 0; i < n; i++) {
+    int a;
+    cin >> a;
+    int b = k - a; // a + b = k, al despejar b se obtiene b = k - a
+    parejas += cubeta[b];
+    cubeta[a]++;
+}
+cout << parejas << "\n";
+```
+
+## Cantidad de subsecuencias contiguas cuya suma es igual a k
+Ejercicio: Encuentra la cantidad de subsecuencias (rangos) contiguos cuya suma es igual a `k`.
+Ejemplo:
+```
+1 2 2 3 5
+5
+```
+La cantidad de rangos contiguos cuya suma es igual a 5 es 3.
+```
+1 + 2 + 2
+2 + 3
+5
+```
+
+Tomando en cuenta las 2 secciones anteriores, esto se puede resolver como una combinacion de ambas.
+
+Dada la funcion:
+`sumatoria(i, j) = sumatoria(j) - sumatoria(i - 1)`
+Es claro que si a la sumatoria desde `0` hasta `j`, se le resta la sumatoria desde `0` hasta `i-1`, se obtiene
+la sumatoria entre `i` y `j`.
+
+```
+0     i     j
+2  6  1  5  3
+
+sumatoria(j)   = 2 + 6 + 1 + 5 + 3 = 17
+sumatoria(i-1) = 2 + 6             =  8
+sumatoria(i,j) =         1 + 5 + 3 =  9
+Lo cual es lo mismo que 17 - 8 = 9
+```
+
+Dado que se conoce el valor buscado, es decir `sumatoria(i, j) = k`
+Entonces podemos despejar la ecuacion de tal modo que tenemos:
+
+```
+k = sumatoria(j) - sumatoria(i - 1)
+sumatoria(i - 1) = sumatoria(j) - k
+```
+
+Si calculamos todas los valores para `sumatoria(j)` desde `0` hasta `n`.
+Entonces solo tendriamos una incógnita. Utilizando la misma lógica del ejercicio anterior,
+podemos guardar todos los valores encontrados en una cubeta y así facilmente consultarlos en cada
+iteración del algoritmo.
+
+```c++
+    int rangos = 0;
+    int sumatoria = 0; // Representa la sumatoria desde el 0
+    for (int i = 0; i < n; i++) {
+        int numero;
+        cin >> numero;
+        sumatoria += numero;
+        // Dada la relacion k = sumatoria(a) - sumatoria(b)
+        // Al despejar, se tiene sumatoria(b) = sumatoria(a) - k
+        rangos += cubeta[sumatoria - k];
+        // si el rango por si solo es igual a k, contarlo por si mismo.
+        if (sumatoria == k) {
+            rangos++;
+        }
+        cubeta[sumatoria]++;
+    }
+    cout << rangos << "\n";
+```
