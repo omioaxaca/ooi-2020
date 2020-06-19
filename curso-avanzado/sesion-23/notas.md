@@ -176,20 +176,27 @@ podemos guardar todos los valores encontrados en una cubeta y así facilmente co
 iteración del algoritmo.
 
 ```c++
+    vector<int> numeros(n); // Aqui se guardan los numeros
+    vector<int> sumatoria(n); // Representa la sumatoria desde el 0
+
+    sumatoria[0] = numeros[0];
+    for (int i = 1; i < n; i++) {
+        sumatoria[i] = sumatoria[i - 1] + numeros[i];
+    }
+
     int rangos = 0;
-    int sumatoria = 0; // Representa la sumatoria desde el 0
     for (int i = 0; i < n; i++) {
-        int numero;
-        cin >> numero;
-        sumatoria += numero;
-        // Dada la relacion k = sumatoria(a) - sumatoria(b)
-        // Al despejar, se tiene sumatoria(b) = sumatoria(a) - k
-        rangos += cubeta[sumatoria - k];
+        // Dada la relacion k = sum_a - sum_b
+        // Al despejar, se tiene sum_b = sum_a - k
+        int sum_a = sumatoria[i];
+        int sum_b = sum_a - k;
+        // Verificar cuantas veces ha aparecido sum_b
+        rangos += cubeta[sum_b];
         // si el rango por si solo es igual a k, contarlo por si mismo.
-        if (sumatoria == k) {
+        if (sum_a == k) {
             rangos++;
         }
-        cubeta[sumatoria]++;
+        cubeta[sum_a]++;
     }
     cout << rangos << "\n";
 ```
