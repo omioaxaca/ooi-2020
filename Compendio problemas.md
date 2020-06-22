@@ -1,10 +1,15 @@
 # Compendio de problemas y ejercicios de la OOI 2020.
 
+## Primer problema Omegaup
+- https://omegaup.com/arena/problem/aplusb#problems
+
 ## Básicos
 - Curso de la OMI básicos: https://omegaup.com/course/Curso-OMI/assignment/COMI-programacion#problems
 - https://omegaup.com/course/Curso-OMI/assignment/COMI-programacion#problems/COMI-Sentados-o-parados
+- https://omegaup.com/arena/problem/estacion#problems
 - https://omegaup.com/arena/problem/Maxima-calificacion#problems
 - https://omegaup.com/arena/problem/DRMIGTriangulo#problems
+- https://omegaup.com/arena/problem/nofib#problems
 - https://omegaup.com/course/Curso-OMI/assignment/COMI-PractA
 - https://omegaup.com/course/Curso-OMI/assignment/COMI-PractA#problems/Intervalo
 - https://omegaup.com/course/Curso-OMI/assignment/COMI-PractA#problems/Normal
@@ -26,6 +31,7 @@
 - Imprimir al revés
 - https://omegaup.com/arena/problem/submatriz/#problems
 - https://omegaup.com/arena/problem/asesino
+- https://omegaup.com/arena/problem/minas#problems
 - https://omegaup.com/arena/ooi-2020-abril/#problems/Buscaminas-
 
 ## Ordenamientos
@@ -46,6 +52,12 @@
 
 ## Implementación
 - https://omegaup.com/arena/problem/Elevadores
+- https://omegaup.com/arena/problem/moneda#problems
+- https://omegaup.com/arena/problem/digitos#problems
+- https://omegaup.com/arena/problem/moneda#problems
+- https://omegaup.com/arena/problem/votacion#problems
+- https://omegaup.com/arena/problem/ptwo#problems
+- https://omegaup.com/arena/problem/hojas2#problems
 
 -----------------------------------------------------
 
@@ -60,6 +72,7 @@
 - https://omegaup.com/arena/problem/ventanas
 - https://omegaup.com/arena/problem/Calificaciones-recursivas
 - https://omegaup.com/arena/problem/oro
+- https://omegaup.com/arena/problem/sumasconsecutivas/#problems
 ### Recursión con memorización
 - https://omegaup.com/arena/problem/Recursion-con-memorizacion/#problems
 - https://omegaup.com/arena/problem/Formula-Recursiva-Cuatro
@@ -74,7 +87,10 @@
 - https://omegaup.com/arena/problem/Fulanito
 ### Lower bound y upper bound
 - https://omegaup.com/arena/problem/Chocolates-CIIC-2015
-- 
+- https://omegaup.com/arena/problem/expense#problems
+- https://omegaup.com/arena/problem/kceros#problems
+- https://omegaup.com/arena/problem/secret#problems
+- https://omegaup.com/arena/IOI2014E1P3/practice/#problems/invasionzombie
 
 ## Divide y vencerás
 - https://omegaup.com/arena/problem/Thanos-Sort
@@ -88,11 +104,14 @@
 - https://omegaup.com/arena/problem/DesEdificios
 - https://omegaup.com/arena/problem/plantas-vs-plantas
 ## Colas
+- https://omegaup.com/arena/problem/Canguros/#problems
 - https://omegaup.com/arena/problem/COMI-Cola-Interactivo (Interactivo)
 - https://omegaup.com/arena/problem/COMI-taquitos
 - https://omegaup.com/course/Curso-OMI/assignment/COMI-EDA/#problems/COMI-Round-Robin
+- https://omegaup.com/arena/problem/ritual#problems
 
 ## Listas ligadas
+- https://omegaup.com/arena/problem/abre#problems/abre
 
 ## Búsqueda en profundidad (DFS)
 - https://omegaup.com/arena/problem/COMI-Derrame-de-Petroleo
@@ -102,6 +121,7 @@
 
 ## Backtracking
 - https://omegaup.com/arena/problem/8Reinas
+- https://omegaup.com/arena/problem/juego-sin-sentido
 
 ## Búsqueda en amplitud (BFS)
 ### BFS clásica en una matriz
@@ -121,7 +141,9 @@
 - https://omegaup.com/arena/problem/relojes
 
 ## Barridos
-Barridos
+- https://omegaup.com/arena/problem/herdsums#problems
+- https://omegaup.com/arena/problem/cuentas#problems
+- https://omegaup.com/arena/problem/secuencia#problems
 Uso de cubetas (problema xor, sumas de parejas = k)
 
 ## Mapas y sets
@@ -146,6 +168,7 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 - https://omegaup.com/arena/problem/Briaago
 - https://omegaup.com/arena/problem/Cajonera
 ### Difícil
+- https://omegaup.com/arena/problem/DP-Generica/#problems
 - https://omegaup.com/arena/problem/K-tree/#problems
 
 ## Two pointers
@@ -165,15 +188,13 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 - https://omegaup.com/arena/problem/Antivirus/#problems
 - https://omegaup.com/arena/problem/Primer-divisor/#problems
 - https://omegaup.com/arena/problem/Puerta-magica/#problems
+### Teoria de números y combinatoria
+- https://omegaup.com/arena/problem/lastdigit#problems
 
 
 ### Divisores
 - https://omegaup.com/arena/problem/CALC_DIVISORES
-Optimización de problemas usando matemáticas
-Factorización prima
-Módulos
-Precálculo
-Combinatoria (principio del conteo, casillas)
+- https://omegaup.com/arena/problem/ndivisores#problems
 
 ## Exámenes pasados de la OMI
 ### OMI 2012
@@ -187,3 +208,6 @@ Combinatoria (principio del conteo, casillas)
 ### OMI 2017
 ### OMI 2018
 ### OMI 2019
+
+## Recursos adicionales
+- [OMI Training Gate](https://lobishomen.wordpress.com/2014/07/23/problemas-del-omi-training-gate-en-clasificacion-tematica/)
