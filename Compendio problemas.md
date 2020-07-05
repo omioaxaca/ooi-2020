@@ -26,6 +26,7 @@
 - https://omegaup.com/arena/problem/Sumar-dos-vectores#problems
 - https://omegaup.com/arena/problem/moscas/#problems
 - https://omegaup.com/arena/problem/N-Impares
+- https://omegaup.com/arena/problem/tienda#problems
 
 ## Matrices
 - Imprimir al revés
@@ -94,6 +95,7 @@
 
 ## Divide y vencerás
 - https://omegaup.com/arena/problem/Thanos-Sort
+- https://omegaup.com/arena/problem/orugas#problems
 
 
 ## Pilas
@@ -101,6 +103,7 @@
 - https://omegaup.com/arena/problem/COMI-Parentesis
 - https://omegaup.com/arena/problem/A-jugar-2048
 - https://omegaup.com/arena/problem/artista
+- https://omegaup.com/arena/problem/patrik#problems
 - https://omegaup.com/arena/problem/DesEdificios
 - https://omegaup.com/arena/problem/plantas-vs-plantas
 ## Colas
@@ -109,6 +112,9 @@
 - https://omegaup.com/arena/problem/COMI-taquitos
 - https://omegaup.com/course/Curso-OMI/assignment/COMI-EDA/#problems/COMI-Round-Robin
 - https://omegaup.com/arena/problem/ritual#problems
+### Colas de prioridad (heaps)
+- https://omegaup.com/arena/problem/Cola-de-prioridad/#problems
+
 
 ## Listas ligadas
 - https://omegaup.com/arena/problem/abre#problems/abre
@@ -122,6 +128,7 @@
 ## Backtracking
 - https://omegaup.com/arena/problem/8Reinas
 - https://omegaup.com/arena/problem/juego-sin-sentido
+- https://omegaup.com/arena/problem/alfiles#problems
 
 ## Búsqueda en amplitud (BFS)
 ### BFS clásica en una matriz
@@ -137,8 +144,16 @@
 ### BFS difícil
 - https://omegaup.com/arena/problem/Cuadrados-Magicos/#problems
 - https://omegaup.com/arena/problem/OIEG2013SSA/#problems
+- https://omegaup.com/arena/problem/luigi/
+- https://omegaup.com/arena/problem/nieves
+- https://omegaup.com/arena/problem/borde#problems
 - https://omegaup.com/arena/problem/IOI-1994---El-Castillo
 - https://omegaup.com/arena/problem/relojes
+- https://omegaup.com/arena/problem/Andar-Chido/#problems (Estado de varias variables)
+
+### BFS con cola de prioridad
+- https://omegaup.com/arena/problem/minecraft/#problems
+- https://omegaup.com/arena/problem/Portal/
 
 ## Barridos
 - https://omegaup.com/arena/problem/herdsums#problems
@@ -150,7 +165,10 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 - https://omegaup.com/arena/problem/Proyectiles
 
 ## Árboles
+- https://omegaup.com/arena/problem/hojas#problems
+- https://omegaup.com/arena/problem/Ancho-de-un-arbol/#problems
 ## Grafos
+- https://omegaup.com/arena/problem/Una-ciudad-unida/#problems
 ### Algoritmo de Floyd
 - https://omegaup.com/arena/problem/OIEG2013SSB/#problems
 ### Algoritmo de Dijkstra
@@ -163,6 +181,7 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 - Problema del cambio de las monedas
 - Problema de la mochila
 - Problema de cortes de tubo
+- https://omegaup.com/arena/problem/veintiuno#problems
 - https://omegaup.com/arena/problem/Concierto-de-Dr-Lira
 - https://omegaup.com/arena/problem/superconejo
 - https://omegaup.com/arena/problem/Briaago
@@ -191,6 +210,11 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 ### Teoria de números y combinatoria
 - https://omegaup.com/arena/problem/lastdigit#problems
 
+### Teoría de juegos
+- https://omegaup.com/arena/problem/cake#problems
+- https://omegaup.com/arena/problem/juego#problems
+- https://omegaup.com/arena/problem/nim#problems
+- https://omegaup.com/arena/problem/cake#problems
 
 ### Divisores
 - https://omegaup.com/arena/problem/CALC_DIVISORES
