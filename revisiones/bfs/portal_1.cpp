@@ -49,10 +49,9 @@ void portal(nodo ini){
 
             if( mat[sig.x][sig.y]== '#' ){
                 pre = actual;
-                pre.pas++; // Sumar 1 porque necesitas un paso para atravesar el portal.if(mat[pre.x][pre.y]=='X'){
+                pre.pas++; // Sumar 1 porque necesitas un paso para atravesar el portal.
                 
                 // Esta comprobacion la debes hacer al principio de la busqueda.
-
                 // if(mat[pre.x][pre.y]=='X'){
                 // if( pre.pas<= mini){ 
                 //     mini= pre.pas;
