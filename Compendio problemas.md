@@ -27,6 +27,7 @@
 - https://omegaup.com/arena/problem/moscas/#problems
 - https://omegaup.com/arena/problem/N-Impares
 - https://omegaup.com/arena/problem/tienda#problems
+- https://omegaup.com/arena/problem/ptwo#problems
 
 ## Matrices
 - Imprimir al revés
@@ -177,6 +178,8 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 - https://omegaup.com/course/Curso-OMI/assignment/COMI-Busquedas/#problems/COMI-Adivina-el-numero
 - https://omegaup.com/course/Curso-OMI/assignment/COMI-Busquedas/#problems/COMI-Pacman
 ## Problemas de solo salida
+- https://omegaup.com/arena/problem/Problemas-con-el-sistema-de-comb/#problems
+
 ## Programación dinámica
 - Problema del cambio de las monedas
 - Problema de la mochila
@@ -225,7 +228,11 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 - https://omegaup.com/arena/ooi-2020-omi-2020/#problems
 
 ### OMI 2013
+- https://omegaup.com/arena/ooi-2020-omi-2013/#problems
+
 ### OMI 2014
+- https://omegaup.com/arena/ooi-2020-omi-2014/#problems
+
 ### OMI 2015
 - https://omegaup.com/arena/problem/OMI2015LENGUAJE1
 ### OMI 2016
