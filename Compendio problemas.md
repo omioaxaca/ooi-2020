@@ -164,12 +164,14 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 
 ## Mapas y sets
 - https://omegaup.com/arena/problem/Proyectiles
+- https://omegaup.com/arena/problem/amigos/
 
 ## Árboles
 - https://omegaup.com/arena/problem/hojas#problems
 - https://omegaup.com/arena/problem/Ancho-de-un-arbol/#problems
 ## Grafos
 - https://omegaup.com/arena/problem/Una-ciudad-unida/#problems
+- https://omegaup.com/arena/problem/Decisiones
 ### Algoritmo de Floyd
 - https://omegaup.com/arena/problem/OIEG2013SSB/#problems
 ### Algoritmo de Dijkstra
@@ -211,6 +213,9 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 - https://omegaup.com/arena/problem/Primer-divisor/#problems
 - https://omegaup.com/arena/problem/Puerta-magica/#problems
 ### Teoria de números y combinatoria
+- https://omegaup.com/arena/problem/COMI-Criba
+- https://omegaup.com/arena/problem/Juanito-y-los-primos/#problems
+- https://omegaup.com/arena/problem/Abigael-vs-Daniel/#problems
 - https://omegaup.com/arena/problem/lastdigit#problems
 
 ### Teoría de juegos
