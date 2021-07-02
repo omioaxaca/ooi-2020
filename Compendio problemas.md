@@ -43,6 +43,12 @@
 - https://omegaup.com/arena/problem/Ordenar#problems
 
 ## Cadenas
+- https://omegaup.com/arena/problem/El-maestro-Tono-Palabras/
+- https://omegaup.com/arena/problem/Sopa-consonantes-vocales-y-num/
+- https://omegaup.com/arena/problem/Analizando-y-transformando-una-c/
+- https://omegaup.com/arena/problem/ASCII-Codificado-en-Binario/
+- https://omegaup.com/arena/problem/Gobierno-De-Mexico-1/
+- https://omegaup.com/arena/problem/Unicornio/
 - https://omegaup.com/arena/problem/Contando-vocales#problems
 - https://omegaup.com/arena/problem/Palindromos-ORAC#problems
 - https://omegaup.com/arena/problem/Reverse-String#problems
