@@ -18,6 +18,7 @@
 - https://omegaup.com/arena/problem/Tablero-de-Ajedrez
 - https://omegaup.com/arena/problem/pb-Bardeando
 - https://omegaup.com/arena/problem/Blancas-Vs-Negras
+- https://omegaup.com/arena/problem/La-hora-en-un-planeta-lejado/
 ### Ciclos
 - https://omegaup.com/arena/problem/Encuentra-el-mayor
 - https://omegaup.com/arena/problem/Porfirio-y-el-String
@@ -182,6 +183,8 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 - https://omegaup.com/course/Curso-OMI/assignment/COMI-Busquedas/#problems/COMI-Pacman
 ## Problemas de solo salida
 - https://omegaup.com/arena/problem/Problemas-con-el-sistema-de-comb/#problems
+- https://omegaup.com/arena/problem/Area-maxima-dado-un-perimetro/
+- https://omegaup.com/arena/problem/M-Numeros-de-cinco-digitos/#problems
 
 ## Programación dinámica
 - Problema del cambio de las monedas
