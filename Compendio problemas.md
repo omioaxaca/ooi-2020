@@ -109,6 +109,9 @@
 ## Pilas
 - https://omegaup.com/arena/problem/COMI-Pila-Interactivo (Interactivo)
 - https://omegaup.com/arena/problem/COMI-Parentesis
+- https://omegaup.com/arena/problem/Conjunto
+- https://omegaup.com/arena/problem/ocp
+- https://omegaup.com/arena/problem/Atestamiento-del-Callejon
 - https://omegaup.com/arena/problem/A-jugar-2048
 - https://omegaup.com/arena/problem/artista
 - https://omegaup.com/arena/problem/patrik#problems
