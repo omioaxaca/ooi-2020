@@ -100,6 +100,7 @@
 - https://omegaup.com/arena/problem/kceros#problems
 - https://omegaup.com/arena/problem/secret#problems
 - https://omegaup.com/arena/IOI2014E1P3/practice/#problems/invasionzombie
+- https://omegaup.com/arena/problem/Trajineras/
 
 ## Divide y vencerás
 - https://omegaup.com/arena/problem/Thanos-Sort
@@ -230,6 +231,7 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 - https://omegaup.com/arena/problem/Juanito-y-los-primos/#problems
 - https://omegaup.com/arena/problem/Abigael-vs-Daniel/#problems
 - https://omegaup.com/arena/problem/lastdigit#problems
+- https://omegaup.com/arena/problem/cnums
 
 ### Teoría de juegos
 - https://omegaup.com/arena/problem/cake#problems
