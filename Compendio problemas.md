@@ -226,6 +226,7 @@ Uso de cubetas (problema xor, sumas de parejas = k)
 - https://omegaup.com/arena/problem/Antivirus/#problems
 - https://omegaup.com/arena/problem/Primer-divisor/#problems
 - https://omegaup.com/arena/problem/Puerta-magica/#problems
+- https://omegaup.com/arena/problem/Contenedores/#problems
 ### Teoria de números y combinatoria
 - https://omegaup.com/arena/problem/COMI-Criba
 - https://omegaup.com/arena/problem/Juanito-y-los-primos/#problems
