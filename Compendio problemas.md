@@ -3,7 +3,7 @@
 ## Primer problema Omegaup
 - https://omegaup.com/arena/problem/aplusb#problems
 
-## Básicos
+## Básicos (aritmética y decisiones)
 - Curso de la OMI básicos: https://omegaup.com/course/Curso-OMI/assignment/COMI-programacion#problems
 - https://omegaup.com/course/Curso-OMI/assignment/COMI-programacion#problems/COMI-Sentados-o-parados
 - https://omegaup.com/arena/problem/estacion#problems
@@ -19,9 +19,17 @@
 - https://omegaup.com/arena/problem/pb-Bardeando
 - https://omegaup.com/arena/problem/Blancas-Vs-Negras
 - https://omegaup.com/arena/problem/La-hora-en-un-planeta-lejado/
+- https://omegaup.com/arena/problem/InversionesBanco/
+- https://omegaup.com/arena/problem/Porque-podemos-programar/
+- https://omegaup.com/arena/problem/CB-Intro-Fraccion-Mixta/
+- https://omegaup.com/arena/problem/Dos-gatos-y-un-raton/
+- https://omegaup.com/arena/problem/Algoritmo-de-Gauss
+
 ### Ciclos
 - https://omegaup.com/arena/problem/Encuentra-el-mayor
 - https://omegaup.com/arena/problem/Porfirio-y-el-String
+- https://omegaup.com/arena/problem/Speeding/
+- 
 
 ## Arreglos/Vectores
 - https://omegaup.com/arena/problem/Sumar-dos-vectores#problems
